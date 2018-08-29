@@ -8,6 +8,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.Logger;
 
+/**
+ * 统计移动手机号，联通手机号，电信手机号所占比
+ * @author LYZ
+ */
 public class MdnpercentageMain extends AbstractMain {
     private static final Logger logger = Logger.getLogger(ADCountMain.class);
 

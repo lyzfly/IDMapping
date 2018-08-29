@@ -8,6 +8,10 @@ import parser.bean.TableParser;
 
 import java.io.IOException;
 
+/**
+ *
+ */
+
 public class MdnPercentageMapper extends Mapper<LongWritable,Text,Text, fact_idBean> {
 
     Text k = new Text();

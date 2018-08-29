@@ -8,6 +8,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.Logger;
 
+/**
+ * 统计每个月各个设备所占比，保留小数点后两位有效数字
+ * @author LYZ
+ */
 public class Devicepercentage_month extends AbstractMain{
 
     private static final Logger logger = Logger.getLogger(ADCountMain.class);

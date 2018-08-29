@@ -9,6 +9,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.Logger;
 
+/**
+ * 统计mdn,qq,Mac,iemi所占比
+ * @author LYZ
+ */
 public class Id_typepercentageMain extends AbstractMain{
 
     private static final Logger logger = Logger.getLogger(ADCountMain.class);
